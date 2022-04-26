@@ -24,13 +24,13 @@ class Program
         salary = Convert.ToDouble(Console.ReadLine());
         Console.Write("Enter salary: ");
         hours = Convert.ToDouble(Console.ReadLine());
-        
+
         // process
         pay = hours * salary * (1.00 - 0.18);
         taxes = hours * salary * 0.18;
 
         // output
-        Console.WriteLine("Your pay is = $" + pay + "" );
+        Console.WriteLine("Your pay is = $" + pay + "");
         Console.WriteLine("You're taxed = $" + taxes + "");
 
         Console.WriteLine("\nDone.");
