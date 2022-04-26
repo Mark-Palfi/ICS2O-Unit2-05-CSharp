@@ -30,7 +30,7 @@ jobs:
 
       - name: Check out Git repository
 
-        uses: actions/checkout@master
+        uses: actions/checkout@main
 
 
 
