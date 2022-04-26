@@ -36,7 +36,7 @@ jobs:
 
       - name: Prettify code
 
-        uses: creyD/prettier_action@main
+        uses: creyD/prettier_action@master
 
         with:
 
