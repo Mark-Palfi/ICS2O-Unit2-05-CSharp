@@ -18,7 +18,7 @@ class Program
 
         Console.WriteLine("This program calculates the pay and taxes of the user.");
         Console.WriteLine("");
-        
+
         // input
         Console.Write("Enter salary: ");
         salary = Convert.ToDouble(Console.ReadLine());
